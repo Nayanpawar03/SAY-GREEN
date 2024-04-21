@@ -3,7 +3,7 @@ let body = document.querySelector("body")
 let header = ` 
 <header class="container">
 <div>
-    <a href="/" class="logo" aria-label="Home Page" style="margin-bottom:0;padding-bottom:0">
+    <a href="./" class="logo" aria-label="Home Page" style="margin-bottom:0;padding-bottom:0">
     <img src="./images/saygreen-removebg-preview.png" style="width:3rem;aspect-ratio=1/1;"></img>
     </a>
     <nav class="navbar">
