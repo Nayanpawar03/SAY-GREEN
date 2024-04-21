@@ -7,7 +7,7 @@ let header = `
     <img src="./images/saygreen-removebg-preview.png" style="width:3rem;aspect-ratio=1/1;"></img>
     </a>
     <nav class="navbar">
-        <a href="/">HOME</a>
+        <a href="./">HOME</a>
         <a href="./guidance.html">GUIDANCE</a>
         <a href="./degradation.html">DEGRADATION</a>
         <a href="./nearby.html">FIND RECYCLING UNITS</a>
@@ -17,7 +17,7 @@ let header = `
 </div>
 <div class="mobile-nav">
     <nav>
-        <a href="/">HOME</a>
+        <a href="./">HOME</a>
         <a href="./guidance.html">GUIDANCE</a>
         <a href="./degradation.html">DEGRADATION</a>
         <a href="./nearby.html">FIND RECYCLING UNITS</a>
