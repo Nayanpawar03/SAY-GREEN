@@ -1,0 +1,84 @@
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    min-height: 1.5rem;
+    background-color: var(--background);
+    border-bottom: 1px solid var(--border);
+}
+
+header input {
+    padding: 0 1rem;
+    border-radius: 100vh;
+    margin: 0.5rem 0;
+}
+
+header>div>* {
+    padding-block: 1rem;
+}
+
+header>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    gap: 1.5rem;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--text);
+    font-size: var(--fs-xs);
+    font-weight: 600;
+}
+
+header .logo {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url();
+}
+
+header .mobile-nav {
+    display: none;
+}
+
+header .icon {
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+
+    header .icon {
+        display: block;
+    }
+
+    header>div>nav.navbar {
+        display: none;
+    }
+
+    header .mode {
+        display: none;
+    }
+
+    header .mobile-nav {
+        position: absolute;
+        background-color: var(--background);
+        width: calc(100% + 2rem);
+        top: 3rem;
+        left: -1rem;
+        align-items: center;
+    }
+
+    header .mobile-nav nav>* {
+        display: block;
+        text-align: center;
+        margin-block-end: 1ch;
+        font-size: var(--fs-xs);
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,25 @@
+.card {
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg, rgb(109, 210, 65), rgb(149, 183, 133) 50%, rgb(171, 234, 144));
+    transition: ease-in-out;
+}
+
+.card__content {
+    background-color: white;
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+}
+
+.card:hover {
+    background-image: linear-gradient(144deg, rgb(171, 234, 144), rgb(109, 210, 65) 50%, rgb(149, 183, 133));
+}
+
+section>div {
+    display: flex;
+    padding-block: 4rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}

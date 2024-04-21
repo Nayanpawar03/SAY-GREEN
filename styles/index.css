@@ -1,0 +1,31 @@
+.text-center {
+    text-align: center;
+    padding: 7px;
+    font-size: 30px;
+}
+
+.form {
+    max-width: 62%;
+    margin: auto;
+}
+
+.form-input {
+    margin: 23px 0;
+    padding: 6px 5px;
+    width: 100%;
+    font-size: 17px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form button {
+    color: var(--text);
+    padding: 0.5rem;
+    background-color: var(--primary);
+    border-radius: 100vh;
+    font-size: var(--fs-xs);
+}
+
+#contact {
+    margin-block-end: 2rem;
+}
